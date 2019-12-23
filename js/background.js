@@ -1,8 +1,15 @@
+$(document).ready(function(){
+	$("body").prepend(lol);
+	console.log('lol');
+});
+
 $(document).mousemove(function (event) {
 	mouseX = event.pageX;
 	mouseY = event.pageY;
 	inCursor = false;
 });
+var lol ="<img id='xf' style='-webkit-user-select: none;position: absolute; height: 30px; z-index: -1;' src='../pictures/background/x-fighter.png'><span hidden style='width: 300px; float: right;' id='f'></span>";
+	
 var mouseX = 0;
 var mouseY = 0;
 var absX;
@@ -34,7 +41,7 @@ function rotation() {
 function debug () {
 	$("#f").html("A: " + angle +
 	"<br> X: " + x + "<br> Y: " +y +
-	"<br> VelX: " + Math.cos(angle) + "<br> VelY: " + Math.sin(angle) 
+	"<br> VelX: " + Math.cos(angle)*10 + "<br> VelY: " + Math.sin(angle)*10 
 	+ "<br> MX: " + mouseX+ "<br> MY: " + mouseY + 
 	"<br> absX: " + absX + "<br> absY: " +absY +
 	"<br>In Cursor: " + inCursor
