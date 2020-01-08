@@ -1,0 +1,5 @@
+class Sqer{
+	constructor(lol){
+		
+	}
+}

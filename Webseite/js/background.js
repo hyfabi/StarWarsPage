@@ -10,15 +10,11 @@ $(document).mousemove(function (event) {
 });
 var lol ="<img id='xf' style='-webkit-user-select: none;position: absolute; height: 30px; z-index: -1;' src='../pictures/background/x-fighter.png'><span hidden style='width: 300px; float: right;' id='f'></span>";
 	
-var mouseX = 0;
-var mouseY = 0;
-var absX;
-var absY;
-var angle;
-var x = 100;
-var y = 100;
-var velX;
-var velY;
+var mouseX = 0, mouseY = 0, absX;
+var absY, angle;
+var x = -0;
+var y = -0;
+var velX, velY;
 var inCursor = false;
 
 var timer = setInterval(function () {
