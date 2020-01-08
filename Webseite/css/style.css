@@ -21,6 +21,10 @@ hr{
 	margin-top: 2%;
 }
 
+.container-fluid hr{
+	margin: 1.25% 5%;
+}
+
 footer{
 	margin-top: 2%;
 	background: none;
