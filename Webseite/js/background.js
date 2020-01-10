@@ -1,7 +1,7 @@
-$(document).ready(function(){
+function startGame() {
 	$("body").prepend(lol);
-	console.log('lol');
-});
+	console.log('ameStarted');
+};
 
 $(document).mousemove(function (event) {
 	mouseX = event.pageX;
@@ -12,8 +12,8 @@ var lol ="<img id='xf' style='-webkit-user-select: none;position: absolute; heig
 	
 var mouseX = 0, mouseY = 0, absX;
 var absY, angle;
-var x = -0;
-var y = -0;
+var x = -100;
+var y = -100;
 var velX, velY;
 var inCursor = false;
 

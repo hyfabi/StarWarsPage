@@ -3,6 +3,11 @@ body{
 	background-size: cover;
 	color: white
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
 header{
 	background: none;
 }
@@ -12,9 +17,8 @@ h1{
 ul{
 	border-bottom: solid white 2px;
 	background-color: rgba(0,0,0,0.5);
+	padding: 0 3%;
 }
-
-
 
 hr{
 	background: white;
@@ -22,6 +26,11 @@ hr{
 
 a{
 	color: white;
+}
+
+a:hover{
+	color: lightgrey;
+	text-shadow: 0 0 3px white;
 }
 
 
@@ -35,8 +44,9 @@ a{
 }
 
 footer{
-	margin-top: 2%;
 	background: none;
+	margin: auto;
+	margin-top: 2%;
 }
 
 .card{
