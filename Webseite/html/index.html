@@ -1,24 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="de-AT">
 <head>
-	<title>Starwarspage</title>
+	<title>Starwars</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script src="../js/transistions.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/transistions.css">
-</head>
+	<script src="../js/script.js"></script>
+	<script src="../js/background.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<style type="text/css">
+		footer{
+			background: none;
+	background-color: rgba(0,0,0,0.5);
+	margin: auto;
+	margin-top: 2%;
+}
+	</style>
+	</head>
 <body>
-	<!--<div class="side" id="d1"></div>
-	<div class="side" id="d2">lol</div>
-	<div class="side" id="d3"></div>-->
-<div id="div1">DIV1
-  <div id="div2">DIV2</div>
-</div>
-<br>
-	
+	<header style="background: none;" class="jumbotron">
+		<h1 onclick="startGame()">Starwars</h1><hr style="margin-bottom: 0">
+	</header>
+
+	<ul class="nav justify-content-center sticky-top text-light">
+		<li class="nav-item"><a class="nav-link" href="Home">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 1</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 2</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 3</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 4</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 5</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 6</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 7</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 8</a></li>
+		<li class="nav-item"><a class="nav-link" href="films.html">Episode 9</a></li>
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Andere</a>
+		<div  class="dropdown-menu text-light">
+			<a class="dropdown-item" href="#">A Starwars Story</a>
+			<a class="dropdown-item" href="#">Solo</a>
+		</div>
+    </li>
+	</ul>
+
+	<main class="container-fluid">
+	<div class="row">
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/1.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/2.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/3.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+	</div><hr>
+	<div class="row">
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/4.jfif">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/5.jfif">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/6.jfif">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+	</div><hr>
+	<div class="row">
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/7.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/8.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+		<div class="col flip-card">
+			<div class="card flip-card-inner">
+				<div class="flip-card-front">
+					<img class="card-img" src="../pictures/carousel/9.jpg">
+				</div>
+				<div class="flip-card-back">
+					Ich bin fabian
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</main>
+	<footer style="background-color: rgba(0,0,0,0.7); padding: 2%;" class="jumbotron">
+		<h1> &#169;Timon Reiter + Fabian Maurutschek</h1><br>
+		<h6 style="margin: 0">Dies ist ein Schulprojekt.</h6>
+		<a style="float: left;" href="impressum.html">Impressum</a>
+		<a style="float: right;" href="kontaktformular.html">Kontaktformular</a>
+	</footer>
 </body>
 </html>

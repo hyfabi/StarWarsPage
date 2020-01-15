@@ -31,6 +31,7 @@ a{
 a:hover{
 	color: lightgrey;
 	text-shadow: 0 0 3px white;
+	text-decoration: none;
 }
 
 
@@ -43,11 +44,7 @@ a:hover{
 	margin: 1.25% 5%;
 }
 
-footer{
-	background: none;
-	margin: auto;
-	margin-top: 2%;
-}
+
 
 .card{
 	border: none;
